@@ -22,11 +22,19 @@
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
+                <Columns>
+                    <asp:TemplateField>
+                        <ItemTemplate>
+                            <asp:Button ID="btnActualizar" runat="server" Text="Actualizar" CommandName="Actualizar" CommandArgument='<%# Eval("IdUsuario") %>' />
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                </Columns>
             </asp:GridView>
 
         </div>
 
     <asp:Button ID="btnRedirigir" runat="server" Text="Ir a otra vista" PostBackUrl="WebForm1.aspx" />
+    <asp:HyperLink ID="ir_eliminar" runat="server" NavigateUrl="~/Todos_usuarios.aspx.vb" >eliminar por id</asp:HyperLink>
     </form>
 </body>
 </html>

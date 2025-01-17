@@ -27,4 +27,8 @@ Public Class WebForm1
     Protected Sub redirigir_Click(sender As Object, e As EventArgs)
         Response.Redirect("Todos_usuarios.aspx")
     End Sub
+
+    Protected Sub txtpassword_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

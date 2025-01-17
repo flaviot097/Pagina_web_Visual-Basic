@@ -96,6 +96,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActualizarUsuario.aspx" />
     <Content Include="Connected Services\serviciowebFlavio\Pagina_web.serviciowebFlavio.CrearConsultaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -118,15 +119,38 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
+    <Content Include="crearTxt.aspx" />
+    <Content Include="CrudEliminar.aspx" />
     <Content Include="Todos_usuarios.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarUsuario.aspx.designer.vb">
+      <DependentUpon>ActualizarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizarUsuario.aspx.vb">
+      <DependentUpon>ActualizarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Connected Services\serviciowebFlavio\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="crearTxt.aspx.designer.vb">
+      <DependentUpon>crearTxt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="crearTxt.aspx.vb">
+      <DependentUpon>crearTxt.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CrudEliminar.aspx.designer.vb">
+      <DependentUpon>CrudEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudEliminar.aspx.vb">
+      <DependentUpon>CrudEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

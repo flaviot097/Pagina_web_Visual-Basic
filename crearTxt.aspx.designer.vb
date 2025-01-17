@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Todos_usuarios
+Partial Public Class crearTxt
 
     '''<summary>
     '''Control form1.
@@ -23,38 +23,29 @@ Partial Public Class Todos_usuarios
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Control labelMensaje.
+    '''Control FileUpload1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents labelMensaje As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents FileUpload1 As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''Control grilla_de_datos.
+    '''Control btnUpload.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents grilla_de_datos As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents btnUpload As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control btnRedirigir.
+    '''Control lblMessage.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnRedirigir As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control ir_eliminar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ir_eliminar As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents lblMessage As Global.System.Web.UI.WebControls.Label
 End Class
